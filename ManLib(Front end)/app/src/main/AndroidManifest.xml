@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.manlib">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ian"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+
+    android:roundIcon="@drawable/ian"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ManLib">
+        <activity android:name=".Historique"></activity>
+        <activity android:name=".vente" />
+        <activity android:name=".stock" />
+        <activity android:name=".recherche" />
+        <activity android:name=".Scat" />
+        <activity android:name=".ajoutlivre" />
+        <activity android:name=".getDetailFragment" />
+        <activity android:name=".nav_menu_mesInfo" />
+        <activity android:name=".nav_menu_vueDensemble" />
+        <activity android:name=".nav_menu_about" />
+        <activity android:name=".nav_menu_category" />
+        <activity android:name=".startpage" />
+        <activity android:name=".forgotPass" />
+        <activity android:name=".walkthrough" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".createlog" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

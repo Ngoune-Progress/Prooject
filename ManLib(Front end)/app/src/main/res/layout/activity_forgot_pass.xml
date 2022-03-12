@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgotPass"
+    android:layout_gravity="center"
+    android:background="@color/c"
+    android:focusableInTouchMode="true"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/viewParent.headerText.NoMode"
+                android:layout_width="170dp"
+                android:layout_height="153dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/mot"
+                android:textSize="35sp" />
+
+            <ImageView
+                android:layout_width="243dp"
+                android:layout_height="202dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-12dp"
+                android:layout_marginEnd="-19dp"
+                android:contentDescription="@string/img1"
+                android:src="@drawable/two" />
+        </RelativeLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputName"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    <EditText
+                        android:id="@+id/editTextName"
+                        style="@style/modifiedEditText"
+                        android:autofillHints=""
+                        android:backgroundTintMode="add"
+                        android:hint="@string/emailE"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                    android:id="@+id/forgot"
+                    style="@style/loginButton"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/loginViewsMargin"
+                    android:text="@string/btnF"
+                    android:textColor="@color/white"
+                    android:onClick="reset"
+                    app:initialCornerAngle="27dp"
+                    app:spinning_bar_color="@color/white"
+                    app:spinning_bar_padding="6dp"
+                    app:spinning_bar_width="4dp"
+                    />
+
+                <TextView
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin"
+                    android:text="@string/mot2"
+                    android:textAlignment="center"
+                    android:textColor="@color/themeColor"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="back"
+            android:contentDescription="@string/img1"
+            android:src="@drawable/ic_back_img"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

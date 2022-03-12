@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Historique">
+
+    <LinearLayout
+        android:id="@+id/content_stock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/start">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/menu_back_stock"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/back"
+                android:onClick="back"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/book"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/logo_sc"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/title_stock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Historique"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="15dp"
+            android:padding="10sp"
+            android:layout_height="200dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp">
+
+                <ImageView
+                    android:id="@+id/I"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/books"/>
+
+                <TextView
+                    android:layout_below="@+id/I"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="Nom Client : NGOUNE Ian"
+                    android:id="@+id/n"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/nom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Lundi 3 mai 12:30"/>
+
+                <TextView
+                    android:id="@+id/t"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/n"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:text="Titre : Learn Python"/>
+
+                <TextView
+                    android:id="@+id/q"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t"
+                    android:layout_marginTop="5dp"
+                    android:text="Quantité : 5"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/p"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Prix Total : 50,000 FCFA"
+                    android:layout_marginTop="20sp"
+                    android:textColor="@color/purple_200"
+                    android:layout_below="@+id/q"/>
+
+                <ImageView
+                    android:layout_width="50sp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/p"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/star"/>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="15dp"
+            android:padding="10sp"
+            android:layout_height="200dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp">
+
+                <ImageView
+                    android:id="@+id/II"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/books"/>
+
+                <TextView
+                    android:layout_below="@+id/II"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="Nom Client : NJAPNDOUNKE"
+                    android:id="@+id/nn"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/nomm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Samedi 1 mai 17:03"/>
+
+                <TextView
+                    android:id="@+id/tt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nn"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:text="Titre : Chef de famille"/>
+
+                <TextView
+                    android:id="@+id/qq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tt"
+                    android:layout_marginTop="5dp"
+                    android:text="Quantité : 1"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/pp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Prix Total : 7,500 FCFA"
+                    android:layout_marginTop="20sp"
+                    android:textColor="@color/purple_200"
+                    android:layout_below="@+id/qq"/>
+
+                <ImageView
+                    android:layout_width="50sp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/pp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/star"/>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

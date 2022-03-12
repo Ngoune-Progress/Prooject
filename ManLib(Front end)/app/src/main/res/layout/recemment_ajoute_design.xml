@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/photo_livreR"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/info"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/titreR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/photo_livreR"
+            android:text="Demo text"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+        
+
+
+        <TextView
+            android:id="@+id/auteurR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titreR"
+            android:text="AUTEUR"
+            android:textStyle="italic"
+            android:layout_toRightOf="@+id/photo_livreR"
+            android:layout_marginLeft="10dp"/>
+
+
+
+        <TextView
+            android:id="@+id/descriptionR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/auteurR"
+            android:layout_toRightOf="@+id/photo_livreR"
+            android:text="Demo DESCRIPTION"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:id="@+id/p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionR"
+            android:text="Prix :"
+            android:layout_toRightOf="@+id/photo_livreR"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:id="@+id/prixR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionR"
+            android:text="prix"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:layout_toRightOf="@+id/p"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:id="@+id/q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionR"
+            android:text="|   Qte :"
+            android:layout_toRightOf="@+id/prixR"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:id="@+id/qteR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionR"
+            android:text="90"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:layout_toRightOf="@+id/q"
+            android:layout_marginLeft="5dp"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

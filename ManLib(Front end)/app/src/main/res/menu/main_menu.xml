@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/navhome"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/nav_search"
+            android:title="@string/navsearch"
+            android:icon="@drawable/loupe"/>
+        <item
+            android:id="@+id/nav_add_cat"
+            android:title="@string/nav_category"
+            android:icon="@drawable/cat"/>
+        <item
+            android:id="@+id/nav_all"
+            android:title="Vue d\'ensemble"
+            android:icon="@drawable/all"/>
+        <item
+            android:id="@+id/nav_about"
+            android:title="À propos"
+            android:icon="@drawable/info"/>
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_info"
+                    android:title="@string/nav_mes_info"
+                    android:icon="@drawable/user"/>
+                <item
+                    android:id="@+id/nav_deconnexion"
+                    android:title="@string/deconnexion"
+                    android:icon="@drawable/logout"/>
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

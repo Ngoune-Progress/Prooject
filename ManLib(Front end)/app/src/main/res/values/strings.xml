@@ -1,0 +1,114 @@
+<resources>
+    <!--  TODO: LOGIN ACTIVITY  -->
+    <string name="app_name">Shopily-shop</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="qst">Aready have an accounts ?</string>
+    <string name="img1">img1</string>
+    <string name="forgotpass">Mot de passe oublier?</string>
+    <string name="btnlogin">Login</string>
+    <string name="newuser">New user ? Register now... </string>
+    <string name="autre">Other method</string>
+
+
+    <!--  TODO: CREATE ACTIVITY  -->
+    <string name="msg">Create an account an have a nice shopping😉</string>
+    <string name="nomE">Name</string>
+    <string name="emailE">Email</string>
+    <string name="tel">Phone</string>
+    <string name="adresse">Adresse</string>
+    <string name="btnsigup">SIGN UP</string>
+    <string name="already">Already have an account... </string>
+
+
+    <!--  TODO: SPLASHSCREEN  -->
+    <string name="splash">Shopping Management</string>
+
+
+    <!--  TODO: WALKTHROUGH  -->
+    <string name="next">Before starting</string>
+    <string name="pro">Android Project</string>
+    <string name="theme">Shopping Management</string>
+    <string name="str">This application will help you easy your shopping</string>
+    <string name="start">Start</string>
+
+    <!--  TODO: FORGOT PASS  -->
+    <string name="mot">Forgot Password🤔</string>
+    <string name="mot2">Vous recevrez un email pour effectuer la reinitialisation</string>
+    <string name="btnF">Send</string>
+    <string name="title_activity_dash">dash</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!--  TODO: STARTPAGE  -->
+    <string name="logo"> Shop</string>
+    <string name="search">Search ...</string>
+    <string name="Shoes">Shoes</string>
+    <string name="Shirt">Shirt</string>
+    <string name="jewelry">Jewelry</string>
+    <string name="more">more</string>
+    <string name="most">All articles</string>
+    <string name="mostw">Best sale</string>
+    <string name="recent">Recently added</string>
+    <string name="all">See all</string>
+    <string name="cat">Categories</string>
+
+
+    <!--  TODO: MOBILE NAV  -->
+    <string name="navhome">Home</string>
+    <string name="navsearch">Search</string>
+    <string name="deconnexion">Offline</string>
+    <string name="nav_category">Categories</string>
+    <string name="nav_mes_info">My information</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sports">Sports</string>
+    <string name="romance">Romance</string>
+
+
+    <!--  TODO: GROUP MEMBERS  -->
+    <string name="ngoune">- NGOUNE Metiaze Peet</string>
+    <string name="yvana">- DIFFO Kamdoum Yane</string>
+    <string name="ngues">- BOMGNI Urvan vianney</string>
+    <string name="ngui">- NOUDEM NADIA</string>
+    <string name="nguel"> </string>
+    <string name="imgDESC">TODO</string>
+    <string name="taches">work</string>
+    <string name="choisir_image">Choose image</string>
+    <string name="prix_unitaire">unit price</string>
+    <string name="description">Description</string>
+    <string name="auteur">Autor</string>
+    <string name="titre_du_livre">Title</string>
+    <string name="quantit">Quantity</string>
+    <string name="ajoute_livre">Add Product</string>
+    <string name="ajouter">Add</string>
+    <string name="todo">TODO</string>
+    <string name="membre_du_group">Group Member :</string>
+    <string name="propos">About</string>
+
+
+</resources>

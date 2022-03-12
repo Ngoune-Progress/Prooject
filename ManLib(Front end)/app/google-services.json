@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835908396849",
+    "project_id": "manlib-a95d9",
+    "storage_bucket": "manlib-a95d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835908396849:android:2aba994d1435c0aaafb210",
+        "android_client_info": {
+          "package_name": "com.example.manlib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835908396849-pvf4nia848a9nl6r9qiksi7arvalvcpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR29XUTY4NGJEDMZPZHr0zvgOPbqh6Lao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835908396849-pvf4nia848a9nl6r9qiksi7arvalvcpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
